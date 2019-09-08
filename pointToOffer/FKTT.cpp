@@ -1,7 +1,9 @@
 #include"ofpower.h"
+#include<stack>
 /*
 14.输入一个链表，输出该链表中倒数第k个结点。
 */
+/*
 ListNode*  Solution::FindKthToTail(ListNode* pListHead, unsigned int k) {
 	if (!pListHead || k<0)  return nullptr;
 	ListNode *fast = pListHead;
@@ -18,3 +20,24 @@ ListNode*  Solution::FindKthToTail(ListNode* pListHead, unsigned int k) {
 	}
 	return slow;
 }
+*/
+ListNode*  Solution::FindKthToTail(ListNode* pListHead, unsigned int k) {
+	
+	std::stack<ListNode* > sta;
+	ListNode* Ln = pListHead;
+	ListNode* rtn = pListHead;
+	while (Ln) {
+		sta.push(Ln);
+		Ln = Ln->next;
+	}
+	if (sta.size() < k)
+		return nullptr;
+	if (k == 0) 
+		return nullptr;
+	while (k>1 ) {
+		sta.pop();
+		k--;
+	}
+	return sta.top();
+	}
+
