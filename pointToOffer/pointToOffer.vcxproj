@@ -163,6 +163,7 @@
     </ClCompile>
     <ClCompile Include="pointToOffer.cpp" />
     <ClCompile Include="reOrderArr.cpp" />
+    <ClCompile Include="RevList.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

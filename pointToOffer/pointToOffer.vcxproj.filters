@@ -32,5 +32,8 @@
     <ClCompile Include="FKTT.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="RevList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

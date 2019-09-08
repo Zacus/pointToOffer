@@ -20,6 +20,6 @@ public:
 	double Power(double base, int exponent);
 	void reOrderArray(std::vector<int> &array);
 	ListNode* FindKthToTail(ListNode* pListHead, unsigned int k);
-
+	ListNode* ReverseList(ListNode* pHead);
 };
 #endif //OFPOWER_H
