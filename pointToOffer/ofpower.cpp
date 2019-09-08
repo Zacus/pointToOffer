@@ -8,7 +8,7 @@
 	 （2）递归运算
 */
 
-#include "ofpower.h"
+#include "com.h"
 
 
 double Solution::Power(double base, int exponent) {

@@ -1,4 +1,4 @@
-#include"ofpower.h"
+#include"com.h"
 /*输入一个链表，反转链表后，输出新链表的表头。*/
 
 ListNode* Solution::ReverseList(ListNode* pHead) {

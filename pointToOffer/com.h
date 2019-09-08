@@ -1,6 +1,6 @@
 ﻿
-#ifndef OFPOWER_H
-#define OFPOWER_H
+#ifndef COM_H
+#define COM_H
 
 
 #include<vector>
@@ -22,4 +22,4 @@ public:
 	ListNode* FindKthToTail(ListNode* pListHead, unsigned int k);
 	ListNode* ReverseList(ListNode* pHead);
 };
-#endif //OFPOWER_H
+#endif //COM_H
