@@ -30,6 +30,12 @@
     <ClCompile Include="RevList.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="mergeList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hasSubtree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="com.h">
