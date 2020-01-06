@@ -5,6 +5,9 @@
 
 #include<vector>
 #include <stdexcept>
+#include <stack>
+#include <queue>
+using namespace std;
 constexpr auto Epsilon = 0.000001;
 
 /*
@@ -16,10 +19,10 @@ struct ListNode {
 	ListNode(int x) :
 		val(x), next(NULL) {
 	}
-}; 
+};
 
 /*
-    树
+	树
 */
 struct TreeNode {
 	int val;
@@ -28,7 +31,7 @@ struct TreeNode {
 	TreeNode(int x) :
 		val(x), left(NULL), right(NULL) {
 	}
-}; 
+};
 
 class Solution {
 public:
@@ -42,5 +45,22 @@ public:
 	bool HasSubtree(TreeNode* pRoot1, TreeNode* pRoot2);
 	bool isSubtree(TreeNode* pRoot1, TreeNode* pRoot2);
 	/*                         end                           */
+	void Mirror(TreeNode *pRoot);
+	vector<int> printMatrix(vector<vector<int> > matrix);
+
+	/*  stack min    start                             */
+	void push(int value);
+	void pop();
+	int top();
+	int min();
+	/*  stack min    end                             */
+
+	bool IsPopOrder(vector<int> pushV, vector<int> popV);
+	vector<int> PrintFromTopToBottom(TreeNode* root);
+private:
+	/*  stack min    start                             */
+	stack<int> minstk;   //最小栈，辅助栈
+	stack<int> stk;         //数据栈
+	/*  stack min    end                              */
 };
 #endif //COM_H

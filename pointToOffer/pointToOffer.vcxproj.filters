@@ -33,7 +33,19 @@
     <ClCompile Include="mergeList.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="hasSubtree.cpp">
+    <ClCompile Include="binaryTreeMirroring.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="spiralmatrix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stkmin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="poporder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="levelorder.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

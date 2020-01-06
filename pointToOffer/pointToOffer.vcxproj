@@ -154,7 +154,9 @@
     <ClInclude Include="com.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="binaryTreeMirroring.cpp" />
     <ClCompile Include="FKTT.cpp" />
+    <ClCompile Include="levelorder.cpp" />
     <ClCompile Include="mergeList.cpp" />
     <ClCompile Include="ofpower.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -163,9 +165,11 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="pointToOffer.cpp" />
+    <ClCompile Include="poporder.cpp" />
     <ClCompile Include="reOrderArr.cpp" />
     <ClCompile Include="RevList.cpp" />
-    <ClCompile Include="hasSubtree.cpp" />
+    <ClCompile Include="spiralmatrix.cpp" />
+    <ClCompile Include="stkmin.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
